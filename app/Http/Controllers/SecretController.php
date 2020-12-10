@@ -16,5 +16,9 @@ class SecretController extends Controller
 
         return $request->user()->secrets;
     }
+    // public function index()
+    // {
+    //     return Secret::all();
+    // }
 
 }
